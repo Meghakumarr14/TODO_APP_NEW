@@ -1,0 +1,222 @@
+css
+
+/* Global Reset and Font */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Body Styling */
+body {
+  background-color: #edf1f5;  /* Light background for dashboard */
+  color: #333;
+  padding: 2rem;
+}
+
+/* Button Base Styling */
+button {
+  cursor: pointer;
+  padding: 10px 20px;
+  margin: 8px;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: background 0.3s ease, transform 0.2s;
+}
+
+/* General Button Hover */
+button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+}
+
+/* =========================
+   Login Page Styling
+========================== */
+.login-container {
+  max-width: 400px;
+  margin: 100px auto;
+  text-align: center;
+  background-color: white;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+}
+
+.login-container h2 {
+  margin-bottom: 20px;
+  color: #2d3748;
+}
+
+/* Login Buttons */
+.login-container button {
+  width: 100%;
+  padding: 12px;
+  margin: 12px 0; /* Added more space between buttons */
+  border-radius: 10px;
+  color: white;
+}
+
+/* Individual Button Colors */
+.login-container .google {
+  background-color: #ea4335;
+}
+.login-container .google:hover {
+  background-color: #c53030;
+}
+
+.login-container .github {
+  background-color: #333;
+}
+.login-container .github:hover {
+  background-color: #111;
+}
+
+.login-container .facebook {
+  background-color: #1877f2;
+}
+.login-container .facebook:hover {
+  background-color: #0f5fc0;
+}
+
+/* =========================
+   Dashboard Styling
+========================== */
+.dashboard-container {
+  max-width: 1000px;
+  margin: 50px auto;
+  background-color: #d9f6fc; /* Lighter background for better look */
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 12px 30px rgba(10, 4, 57, 0.44);
+}
+
+.dashboard-container h1 {
+  text-align: center;
+  font-size: 2.2rem;
+}
+ 
+.dashboard-container h2 {
+  margin-bottom: 1rem;
+  color: #2c3646;
+}
+
+/* User Info */
+.dashboard-container img {
+  border-radius: 50%;
+  margin-top: 1rem;
+}
+
+.dashboard-container p {
+  margin: 0.3rem 0;
+}
+
+/* =========================
+   Task Form Styling
+========================== */
+.task-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.task-form input,
+.task-form textarea,
+.task-form select {
+  padding: 0.7rem 1rem;
+  border: 1px solid #e1d7d7;
+  border-radius: 10px;
+  font-size: 1rem;
+  width: 100%;
+}
+
+.task-form textarea {
+  resize: vertical;
+  min-height: 80px;
+}
+
+.task-form button {
+  background-color: #606064;
+  color: white;
+  padding: 0.75rem 1rem;
+  border: none;
+  border-radius: 10px;
+  font-size: 1rem;
+}
+
+.task-form button:hover {
+  background-color: #4b4f53;
+}
+
+/* =========================
+   Task Item Styling
+========================== */
+.task-item {
+  background-color: #f1f5f9;
+  padding: 1.5rem;
+  border-radius: 16px;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.05);
+  margin-bottom: 1.5rem;
+  transition: transform 0.2s;
+}
+
+.task-item:hover {
+  transform: scale(1.01);
+}
+
+.task-item h4 {
+  margin-bottom: 0.5rem;
+  color: #2d3748;
+}
+
+.task-item p {
+  margin: 0.3rem 0;
+}
+
+.task-item select {
+  padding: 0.4rem;
+  margin-left: 0.5rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.task-item button {
+  margin-top: 1rem;
+  background-color: #e53e3e;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.task-item button:hover {
+  background-color: #c53030;
+}
+
+/* =========================
+   Logout & Pagination Buttons Styling
+========================== */
+.logout-btn {
+  position: absolute;
+  top: 30px;
+  right: 40px;
+  background-color: #404048;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s;
+}
+
+.logout-btn:hover {
+  background-color: #4b4f53;
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+}
+

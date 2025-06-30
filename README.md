@@ -24,3 +24,7 @@ Push notifications
 Dark mode support
 Multi-user collaboration
 
+**Demo video**
+Watch the demo video here : https://www.loom.com/share/863beff319ac4bd18268f77b78024230
+
+
